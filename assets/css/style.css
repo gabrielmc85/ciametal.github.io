@@ -14,11 +14,11 @@ body {
 }
 
 a {
-  color: #f03c02;
+  color: #4466AA;
 }
 
 a:hover {
-  color: #fd5c28;
+  color: #4466AA;
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #f03c02;
+  background: #4466AA;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top:hover {
   color: #fff;
-  background: #fd5c28;
+  background: #4466AA;
   transition: 0.3s ease-in-out;
 }
 
@@ -69,34 +69,34 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #f8f6f5;
+  background: #4466AA;   /*  rec superior*/
   padding: 10px 0;
   font-size: 14px;
 }
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #4d4643;
+  color: #ffffff; /*color letra mail*/
   transition: 0.3s;
 }
 
 #topbar .contact-info a:hover {
-  color: #f03c02;
+  color: #aaaaaa;
 }
 
 #topbar .contact-info i {
-  color: #f03c02;
+  color: #ffffff;
   padding: 4px;
 }
 
 #topbar .contact-info .icofont-phone {
   padding-left: 20px;
   margin-left: 20px;
-  border-left: 1px solid #e9e9e9;
+  border-left: 1px solid #ffffff; /*linea divisoria*/
 }
 
 #topbar .social-links a {
-  color: #836a61;
+  color: #ffffff;
   padding: 4px 0 4px 20px;
   display: inline-block;
   line-height: 1px;
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #f03c02;
+  color: #aaaaaa;
 }
 
 /*--------------------------------------------------------------
@@ -141,8 +141,9 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 70px;  /*tamaño logo*/
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -167,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #65534c;
+  color: #4466AA; /*color letras menu*/
   padding: 14px 0 15px 0;
   transition: 0.3s;
   font-size: 13px;
@@ -176,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #f03c02;
+  color: #b4aca8;
   text-decoration: none;
 }
 
@@ -405,7 +406,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-duration: .5s;
   animation-duration: .5s;
-  border-top: 5px solid #f03c02;
+  border-top: 5px solid #4466AA; /*linea recuadro*/
 }
 
 #hero .carousel-content h2 {
@@ -429,11 +430,11 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #f03c02;
+  border: 2px solid #4466AA;  /*color recuadro*/
 }
 
 #hero .btn-get-started:hover {
-  background: #f03c02;
+  background: #4466AA; /* recuadro*/
   color: #fff;
   text-decoration: none;
 }
@@ -597,7 +598,7 @@ section {
 .cta {
   background: #f3f1f0;
   padding: 60px 0;
-  color: #574741;
+  color: #574741; /*color letra vendemos */
 }
 
 .cta h3 {
@@ -606,7 +607,7 @@ section {
 }
 
 .cta h3 span {
-  color: #f03c02;
+  color: #4466AA;
 }
 
 .cta p {
@@ -626,13 +627,13 @@ section {
   transition: 0.4s;
   margin: 10px;
   border-radius: 4px;
-  border: 2px solid #f03c02;
-  color: #f03c02;
+  border: 2px solid #4466AA;
+  color: #4466AA;
   background: #fff;
 }
 
 .cta .cta-btn:hover {
-  background: #f03c02;
+  background: #4466AA;
   color: #fff;
 }
 
@@ -678,7 +679,7 @@ section {
   text-align: center;
   width: 72px;
   height: 72px;
-  background: #f03c02;
+  background: #4466AA;
 }
 
 .services .icon i {
@@ -699,15 +700,15 @@ section {
 
 .services .icon-box:hover .icon {
   background: #fff;
-  border: 2px solid #f03c02;
+  border: 2px solid #4466AA;
 }
 
 .services .icon-box:hover .icon i {
-  color: #f03c02;
+  color: #4466AA;
 }
 
 .services .icon-box:hover .title a {
-  color: #f03c02;
+  color: #4466AA;
 }
 
 .services .description {
@@ -740,7 +741,7 @@ section {
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #fff;
-  background: #f03c02;
+  background: #4466AA;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -881,7 +882,7 @@ section {
 .about-us .content .icon-box i {
   font-size: 48px;
   float: left;
-  color: #f03c02;
+  color: #4466AA;
 }
 
 .about-us .content .icon-box p {
@@ -2070,7 +2071,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #fd6f41;
+  color: #4466AA;
   font-size: 18px;
   line-height: 1;
 }
@@ -2094,7 +2095,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #fd6f41;
+  color: #4466AA;
 }
 
 #footer .footer-newsletter {
@@ -2133,7 +2134,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #f03c02;
+  background: #4466AA;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2141,7 +2142,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #fd5c28;
+  background: #4466AA;
 }
 
 #footer .credits {
@@ -2153,7 +2154,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #f03c02;
+  background: #4466AA;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2166,7 +2167,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #fd5c28;
+  background: #4466AA;
   color: #fff;
   text-decoration: none;
 }
